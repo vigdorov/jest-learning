@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --config jest.config.js"
+    "test": "jest --config jest.config.js --watchAll"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +12,7 @@
   "devDependencies": {
     "jest": "^24.9.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
 }
